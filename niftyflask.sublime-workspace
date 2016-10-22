@@ -1,0 +1,448 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"connec",
+				"connectstring"
+			],
+			[
+				"connc",
+				"connectstring"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/work/niftyflask",
+		"/C/work/niftyflask/app",
+		"/C/work/niftyflask/db",
+		"/C/work/niftyflask/etc"
+	],
+	"file_history":
+	[
+		"/C/work/niftyflask/run-nginx.sh",
+		"/C/work/niftyflask/run-app.sh",
+		"/C/work/niftyflask/init-nginx.sh",
+		"/C/work/niftyflask/Dockerfile",
+		"/C/work/niftyflask/init-app.sh",
+		"/C/work/niftyflask/app/app.py",
+		"/C/work/niftyflask/requirements.txt",
+		"/C/work/niftyflask/nginx.conf",
+		"/C/work/niftyflask/docker-compose.yaml",
+		"/C/work/niftyflask/uwsgi.ini",
+		"/C/work/niftyflask/Makefile",
+		"/C/work/niftyflask/db/zzzzzzz_displayfinalconfig.sh",
+		"/S/boot/bootstrap.cmd",
+		"//diskstation2/software/boot/bootstrap.cmd",
+		"/C/temp/testing.cmd",
+		"/C/aurora2/Int/Projects/AuroraNet/components/auth/Readme.md",
+		"/C/aurora2/Int/Projects/AuroraNet/components/auth/Makefile",
+		"/C/aurora2/Int/Projects/AuroraNet/components/auth/package.json",
+		"/C/aurora2/Int/Projects/AuroraNet/components/database/Dockerfile",
+		"/C/aurora2/Int/Projects/AuroraNet/components/database/create-users-table.sh",
+		"/C/aurora2/Int/Projects/AuroraNet/docker-compose.yaml",
+		"/C/aurora2/Int/Projects/AuroraNet/components/auth/auth.js",
+		"/C/aurora2/Int/Projects/CityServer/Components/Leaderboard/package.json",
+		"/C/aurora2/Int/Projects/CityServer/Makefile",
+		"/C/aurora2/Int/Projects/CityServer/Components/Database/add-docker-user.sh",
+		"/C/aurora2/Int/Projects/CityServer/Components/Redis/Dockerfile",
+		"/C/aurora2/Int/Projects/CityServer/Components/Database/Dockerfile",
+		"/C/aurora2/Env/env.cmd",
+		"/C/aurora2/Int/Projects/CityServer/Components/Treasury/package.json",
+		"/C/aurora2/Int/Projects/CityServer/Components/Auth/auth.js",
+		"/C/aurora2/Int/Projects/CityServer/Components/Auth/Dockerfile",
+		"/C/aurora2/Int/Projects/CityServer/Components/Auth/package.json",
+		"/C/aurora2/Int/Projects/CityServer/docker-compose.yaml",
+		"/C/aurora2/Int/Projects/CityServer/Components/PlayerStore/package.json",
+		"/C/aurora2/Int/Projects/CityServer/Components/MatchMaker/package.json",
+		"/C/aurora2/Int/Projects/CityServer/node/matchmaker.js",
+		"/C/aurora2/Bin/build.py",
+		"/C/aurora2/Int/Projects/CityServer/Dockerfile",
+		"/C/aurora2/.hgignore",
+		"/C/aurora2/Int/Projects/Shooter/Game/Build/x64/Shooter.bdgcfg",
+		"/C/aurora2/Int/Shared/Service/Build/SourceFiles",
+		"/C/aurora2/Int/Shared/Service/Build/x64/Service.bdgcfg",
+		"//diskstation/music/Pink/I'm Not Dead/02 Who Knew.mp3",
+		"/C/aurora2/Int/Shared/Service/Service.cpp",
+		"/C/aurora2/Int/Shared/Service/Build/x64/SourceFiles",
+		"/C/aurora2/Int/Shared/Engine/Engine.h",
+		"/C/aurora2/Int/Projects/Shooter/Game/Build/SourceFiles",
+		"/C/aurora2/Int/Tools/BadgerConfig/Templates/x64/CppBuildTemplate.vcxproj",
+		"/C/aurora2/Int/Tools/BadgerConfig/Templates/Tool/CppBuildTemplate.vcxproj",
+		"/C/aurora2/Int/Tools/BadgerConfig/AddClass.py",
+		"/C/aurora2/Int/Shared/Entity/Build/SourceFiles",
+		"/C/aurora2/Int/Projects/Shooter/Data/Levels/MountainRace01/entities.json",
+		"/C/aurora2/Int/Shared/Json/Build/SourceFiles",
+		"/C/aurora2/Int/Projects/Shooter/Game/Build/x64/shooter.cmd",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Build/x64/CE.cmd",
+		"/C/aurora2/Makefile",
+		"/C/aurora2/Int/Projects/Racer/Game/PhysicsComponent.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Dist/CityEngine.ilk",
+		"/C/aurora2/Int/Projects/CityEditor/Dist/CityEngine.map",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Building.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Facade.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Facade.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Intersection.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Intersection.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Road.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Segment.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Segment.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Tile.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/City/Tile.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Game/GameWindow.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Game/Vehicle.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Game/Vehicle.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Physics/PhysicsVehicle.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Physics/PhysicsVehicle.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Physics/PhysicsWorld.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Physics/PhysicsWorld.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Rendering/Asset.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Rendering/Asset.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Rendering/Camera.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Rendering/Camera.h",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Rendering/PrimitiveRenderer.cpp",
+		"/C/aurora2/Int/Projects/CityEditor/Source/Tools/InsertMeshTool.cpp",
+		"/C/aurora2/Int/Projects/Racer/Dist/Racer.ilk",
+		"/C/aurora2/Int/Projects/Racer/Editor/Camera.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/Camera.h",
+		"/C/aurora2/Int/Projects/Racer/Editor/EditKnot.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/EditorView.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/EditorView.h",
+		"/C/aurora2/Int/Projects/Racer/Editor/GenerateVisibility.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/PreCompiled.h",
+		"/C/aurora2/Int/Projects/Racer/Editor/Radiosity.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/Radiosity.h",
+		"/C/aurora2/Int/Projects/Racer/Editor/RadiosityPreview.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/SkyDome.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/Track.cpp",
+		"/C/aurora2/Int/Projects/Racer/Editor/Track.h",
+		"/C/aurora2/Int/Projects/Racer/Game/Build/x64/ipch/RACER-2112f2ee/RACER-5435b1cb.ipch",
+		"/C/aurora2/Int/Projects/Racer/Game/Main.cpp",
+		"/C/aurora2/Int/Projects/Racer/Game/PhysicsComponent.h",
+		"/C/aurora2/Int/Projects/Racer/Game/PreCompiled.h",
+		"/C/aurora2/Int/Projects/Racer/Game/VehicleComponent.cpp",
+		"/C/aurora2/Int/Projects/Racer/Game/VehicleComponent.h",
+		"/C/aurora2/Int/Projects/Racer/Shared/GridPosition.h",
+		"/C/aurora2/Int/Projects/Racer/Shared/TrackPosition.h",
+		"/C/aurora2/Int/Projects/Racer/Shared/TrackResource.h",
+		"/C/aurora2/Int/Projects/Shooter/Game/Build/x64/ipch/SHOOTER-8bbcf83c/SHOOTER-c19d1dd3.ipch",
+		"/C/aurora2/Int/Projects/Shooter/Game/DebugDraw.cpp",
+		"/C/aurora2/Int/Projects/Shooter/Game/DebugDraw.h",
+		"/C/aurora2/Int/Projects/Shooter/Game/Main.cpp",
+		"/C/aurora2/Int/Projects/Shooter/Game/PreCompiled.h",
+		"/C/aurora2/Int/Shared/Entity/Entity.h",
+		"/C/aurora2/Int/Shared/Entity/PreCompiled.h",
+		"/C/aurora2/Int/Shared/Math/AABB.cpp",
+		"/C/aurora2/Int/Shared/Math/AABB.h",
+		"/C/aurora2/Int/Shared/Math/AffineTransform2.cpp",
+		"/C/aurora2/Int/Shared/Math/AffineTransform2.h",
+		"/C/aurora2/Int/Shared/Math/Build/SourceFiles",
+		"/C/aurora2/Int/Shared/Math/Build/Tool/Math.vcxproj",
+		"/C/aurora2/Int/Shared/Math/Build/Tool/Math.vcxproj.filters",
+		"/C/aurora2/Int/Shared/Math/Build/x64/Math.vcxproj",
+		"/C/aurora2/Int/Shared/Math/Build/x64/Math.vcxproj.filters",
+		"/C/aurora2/Int/Shared/Math/Matrix.cpp",
+		"/C/aurora2/Int/Shared/Math/Matrix.h",
+		"/C/aurora2/Int/Shared/Math/Quaternion.cpp",
+		"/C/aurora2/Int/Shared/Math/Quaternion.h",
+		"/C/aurora2/Int/Shared/Math/Test/TestMatrix.cpp",
+		"/C/aurora2/Int/Tools/GenerateRoadGeometry/Main.cpp",
+		"/C/aurora2/Int/Tools/ipch/SCENE-c6faf950/SCENE-a648d98d.ipch"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 108.0,
+		"where_history":
+		[
+			"",
+			"C:\\aurora2\\Int",
+			"C:\\aurora2\\Int\\*.cpp",
+			"C:\\aurora2\\Int",
+			"Int\\*",
+			"Int",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"INSTALL_ROOT",
+			"assertHandler",
+			"setAssertHandler",
+			"AffineTransform2",
+			"Vector",
+			"Plane",
+			"objoutput",
+			"Vector",
+			"assimp"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"AffineTransform"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "niftyflask.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"auth",
+				"Int\\Projects\\AuroraNet\\components\\auth\\auth.js"
+			],
+			[
+				"docker-com",
+				"Int\\Projects\\AuroraNet\\docker-compose.yaml"
+			],
+			[
+				"docker",
+				"Int\\Projects\\AuroraNet\\docker-compose.yaml"
+			],
+			[
+				"dockerfile",
+				"Int\\Projects\\CityServer\\Components\\Auth\\Dockerfile"
+			],
+			[
+				"env",
+				"Env\\env.cmd"
+			],
+			[
+				"dockerc",
+				"Int\\Projects\\CityServer\\docker-compose.yaml"
+			],
+			[
+				"docker-c",
+				"Int\\Projects\\CityServer\\docker-compose.yaml"
+			],
+			[
+				"dockerfi",
+				"Int\\Projects\\CityServer\\Dockerfile"
+			],
+			[
+				"dockerfie",
+				"Int\\Projects\\CityServer\\Dockerfile"
+			],
+			[
+				"env.",
+				"Env\\env.cmd"
+			],
+			[
+				".hgi",
+				".hgignore"
+			],
+			[
+				"build.py",
+				"Bin\\build.py"
+			],
+			[
+				"addclass",
+				"Int\\Tools\\BadgerConfig\\AddClass.py"
+			],
+			[
+				"cpp",
+				"Int\\Tools\\BadgerConfig\\Templates\\Tool\\CppBuildTemplate.vcxproj"
+			],
+			[
+				"cpptempl",
+				"Int\\Tools\\BadgerConfig\\Templates\\x64\\CppBuildTemplate.vcxproj"
+			],
+			[
+				"ce.cmd",
+				"Int\\Projects\\CityEditor\\Source\\Build\\x64\\CE.cmd"
+			],
+			[
+				"env.cmd",
+				"Env\\env.cmd"
+			],
+			[
+				"makefil",
+				"Makefile"
+			],
+			[
+				"camera.cpp",
+				"Int\\Projects\\CityEditor\\Source\\Rendering\\Camera.cpp"
+			],
+			[
+				"testtest",
+				"Int\\Shared\\AuroraTest\\Test\\TestTest.cpp"
+			],
+			[
+				"matrix",
+				"Int\\Shared\\Math\\Matrix.cpp"
+			],
+			[
+				"affinetra",
+				"Int\\Shared\\Math\\AffineTransform2.cpp"
+			],
+			[
+				"duktape.bd",
+				"Ext\\Packages\\duktape\\Build\\Tool\\duktape.bdgcfg"
+			],
+			[
+				"cpptem",
+				"Int\\Tools\\BadgerConfig\\Templates\\Tool\\CppBuildTemplate.vcxproj"
+			],
+			[
+				"aabb",
+				"Int\\Shared\\Math\\AABB.cpp"
+			],
+			[
+				"m.cmd",
+				"Bin\\m.cmd"
+			],
+			[
+				"makefile",
+				"Makefile"
+			],
+			[
+				"build.cmd",
+				"Bin\\build.cmd"
+			],
+			[
+				"makefie",
+				"C:\\work\\niftyplugins\\Makefile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 448.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

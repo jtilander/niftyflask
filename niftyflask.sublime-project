@@ -1,0 +1,24 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				"*.pyc",
+				"*.sublime-workspace",
+				"*.map",
+				"*.ilk",
+				"*.exp",
+				"*.pdb"
+			],
+			"folder_exclude_patterns":
+			[
+				".vs",
+				".hg",
+				"ipch",
+				"node_modules",
+			],
+			"path": "."
+		}
+	]
+}
