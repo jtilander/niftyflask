@@ -1,6 +1,6 @@
-= NiftyFlask =
+# NiftyFlask
 
-== Introduction ==
+## Introduction
 
 (WIP)
 
@@ -8,10 +8,10 @@ My attempt to not rediscover all the ins and outs of bringing up a new
 flask application each time.
 
 
-== Usage ==
+## Usage
 
 
-== Dockerfiles ==
+## Dockerfiles
 
 There are a couple of containers in flight at the same time. 
 
@@ -29,5 +29,7 @@ on a production server, or we can simply mount the /app volume from a
 local environment to handle a hotloading scenario.
 
 
-== Environment variables ==
+## Environment variables
+
+
 
