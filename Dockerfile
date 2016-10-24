@@ -23,6 +23,8 @@ RUN apt-get install -qy --no-install-recommends \
     gettext-base \
     dos2unix
 
+RUN apt-get install -qy postgresql postgresql-contrib
+
 RUN apt-get install -qy --no-install-recommends \
 	zlib1g-dev \
 	libpng12-dev \
@@ -30,7 +32,8 @@ RUN apt-get install -qy --no-install-recommends \
 	libldap2-dev \
 	libsasl2-dev \
 	libssl-dev \
-	libjpeg-dev
+	libjpeg-dev \
+	libffi-dev
 
 RUN apt-get install -qy --no-install-recommends \
 	npm \
@@ -80,10 +83,17 @@ RUN dos2unix /etc/my_init.d/*.sh
 RUN dos2unix /etc/service/nginx/run
 RUN dos2unix /etc/service/app/run
 
-ENV NGINX_WORKERS 8
-ENV UWSGI_WORKERS 8
 
 RUN touch /app/mount_this_from_another_container
 
 VOLUME /app
 WORKDIR /app
+
+
+ENV POSTGRES_USER=postgres
+ENV POSTGRES_PASSWORD=password
+ENV POSTGRES_DB=nifty
+ENV UWSGI_HOTLOAD=0
+ENV UWSGI_WORKERS=8
+ENV NGINX_WORKERS=8
+ENV PGHOST=postgres
