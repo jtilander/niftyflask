@@ -5,11 +5,9 @@ CMD ["/sbin/my_init"]
 # Ensure that the apt tool doesn't require any user interaction
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update
-
-RUN apt-get install -qy --no-install-recommends nginx
-
-RUN apt-get install -qy --no-install-recommends \
+RUN apt-get update && \
+    apt-get install -qy --no-install-recommends nginx && \
+    apt-get install -qy --no-install-recommends \
     python-software-properties \
     python-setuptools \
     build-essential \
@@ -21,11 +19,9 @@ RUN apt-get install -qy --no-install-recommends \
     less \
     wget \
     gettext-base \
-    dos2unix
-
-RUN apt-get install -qy postgresql postgresql-contrib
-
-RUN apt-get install -qy --no-install-recommends \
+    dos2unix && \
+    apt-get install -qy postgresql postgresql-contrib && \
+    apt-get install -qy --no-install-recommends \
 	zlib1g-dev \
 	libpng12-dev \
 	libpq-dev \
@@ -33,12 +29,11 @@ RUN apt-get install -qy --no-install-recommends \
 	libsasl2-dev \
 	libssl-dev \
 	libjpeg-dev \
-	libffi-dev
-
-RUN apt-get install -qy --no-install-recommends \
+	libffi-dev \
 	npm \
 	nodejs \
-	nodejs-legacy
+	nodejs-legacy && \
+    apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 RUN easy_install pip
 RUN pip install \
@@ -46,9 +41,6 @@ RUN pip install \
 	flask \
 	psycopg2 \
 	alembic
-
-# Cleanup APT when we are done.
-RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 EXPOSE 80
 

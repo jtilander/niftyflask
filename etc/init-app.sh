@@ -17,8 +17,8 @@ export PGPASSWORD=$POSTGRES_PASSWORD
 
 echo -n Waiting for database to come online.
 #while ! psql -lqt 2> /dev/null; do
-while ! psql -lqt 2; do
+while ! psql -c '\q' 2> /dev/null; do
 	echo -n .
-	sleep 5
+	sleep 1
 done
-echo -e \nDatabase is online.
+echo -e "\nDatabase is online."
