@@ -1,5 +1,5 @@
 #!/bin/bash
-#set -e
+set -e
 
 cat /etc/app/uwsgi.template | envsubst "\$UWSGI_WORKERS \$UWSGI_HOTLOAD" > /etc/app/uwsgi.ini
 
@@ -16,7 +16,8 @@ export PGUSER=$POSTGRES_USER
 export PGPASSWORD=$POSTGRES_PASSWORD
 
 echo -n Waiting for database to come online.
-#while ! psql -lqt 2> /dev/null; do
+
+set +e
 while ! psql -c '\q' 2> /dev/null; do
 	echo -n .
 	sleep 1

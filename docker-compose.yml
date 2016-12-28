@@ -52,7 +52,7 @@ app:
 # Here is the backend storage for the application.
 #
 postgres:
-  build: db
+  image: jtilander/niftypostgres
   hostname: postgres
   restart: never
   environment:
