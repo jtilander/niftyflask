@@ -22,8 +22,6 @@ nuke:
 
 image:
 	docker build -t jtilander/niftyflask:$(TAG) .
-	docker build -t jtilander/niftypostgres:$(TAG) db
 
 push:
 	docker push jtilander/niftyflask:$(TAG)
-	docker push jtilander/niftypostgres:$(TAG)
