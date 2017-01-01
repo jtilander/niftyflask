@@ -1,5 +1,4 @@
 Flask
-Pillow
 psycopg2
 pyOpenSSL
 pyparsing
@@ -7,13 +6,11 @@ python-dateutil
 pytz
 requests
 six
-slacker
 SQLAlchemy
 Twisted
 Werkzeug
 xattr
 zope.interface
-python-ldap
 raven
 blinker
 Jinja2
